@@ -14,16 +14,25 @@ Each folder is a broad topic area. Inside, every `.md` file covers one concept �
 system-design-learnings/
 ├── Databases Concepts/
 │   └── Sharding and Partitioning.md
+├── Fundamentals/
+│   └── How to Approach System Design.md
 └── README.md
 ```
 
 ## 📖 Topics Covered
+
+### Fundamentals
+
+| Note                                                                                      | What it covers                                                                                                                                                                                                                    | Source                                                                           |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| [How to Approach System Design](./Fundamentals/How%20to%20Approach%20System%20Design.md) | Two practical approaches to any design problem — the Spiral Approach and the Incremental MVP Approach — plus three pointers (fence the scope, seek clarifications, ask critical questions) to keep any design discussion crisp | [Arpit Bhayani — Asli Engineering](https://www.youtube.com/watch?v=1r9bPisYaOQ) |
 
 ### Databases Concepts
 
 | Note                                                                                 | What it covers                                                                                                                                                                            | Source                                                                          |
 | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | [Sharding and Partitioning](./Databases%20Concepts/Sharding%20and%20Partitioning.md) | How databases scale from a single server to horizontal scaling; the real difference between sharding (splitting across servers) and partitioning (splitting the data); trade-offs of each | [Arpit Bhayani — Asli Engineering](https://www.youtube.com/watch?v=wXvljefXyEo) |
+
 
 _(More topics coming as I go — caching, message queues, load balancing, consistent hashing, etc.)_
 
